@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img-login/montanas-minimalista.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.content-login{
+    width: 35%;
+    height: 60%;
+    margin: auto;
+    background-color: rgba(89, 155, 236, 0.078);
+    backdrop-filter: blur(0.8px);
+    border: 2px solid rgba(128, 128, 128, 0.311);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.div-img-usuario{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-usario{
+    width: 90px;
+    height: 90px;
+}
+
+.form{
+    width: 534px;
+    height: 410px;
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: aqua; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+
+.container-form{
+    /* background-color: brown; */
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+.img-icono{
+    /* background-color: aqua; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icono-usuario{
+    width: 40px;
+    height: 40px;
+}
+
+.input{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(167, 162, 162, 0.685);
+    width: 400px;
+    font-size: 18px;
+
+}
+
+.input::placeholder{
+    color: rgba(136, 132, 129, 0.461);
+}
+
+.input:not(:placeholder-shown){
+    color: rgb(88, 207, 88);
+
+}
+
+.input:focus{
+    outline: none;
+    color: rgba(216, 213, 213, 0.877);
+    background-color: rgba(121, 118, 118, 0.027);
+    backdrop-filter: blur(3px);
+}
+
+
+/* 
+.input:not( :placeholder-shown){
+    color: rgb(141, 70, 70);
+
+} */
